@@ -28,7 +28,7 @@ Ao mesmo tempo, a planilha de vagas da EBAC mostra milhares de vagas de **baixa 
 ## Ferramentas
 
 - **Python (Pandas)**: limpeza, exploração e exportação → `main.py`
-- **Power BI**: modelo com tabela calendário, medidas DAX e dashboard → `Dashboard_Mercado_Vagas.pbix`
+- **Power BI**: modelo com tabela calendário, medidas DAX e dashboard → `Dashboard_Mercado_Vagas_alinhado.pbix`
 
 ## Tratamento de dados
 
@@ -91,7 +91,7 @@ pip install pandas
 python main.py
 ```
 
-O script gera `vagas_limpas.csv` e `candidaturas_limpas.csv`. Abra o `Dashboard_Mercado_Vagas.pbix` no Power BI Desktop e clique em **Atualizar**.
+O script gera `vagas_limpas.csv` e `candidaturas_limpas.csv`. Abra o `Dashboard_Mercado_Vagas_alinhado.pbix` no Power BI Desktop e clique em **Atualizar**.
 
 > A base original da EBAC (`vagas.csv`) **não está no repositório** porque contém e-mails de quem cadastrou as vagas. O repositório traz a versão tratada (`vagas_limpas.csv`), sem dados pessoais, que já alimenta o dashboard.
 
