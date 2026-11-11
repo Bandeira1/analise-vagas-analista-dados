@@ -104,7 +104,6 @@ Projeto_dados/
 ├── vagas_limpas.csv              # base EBAC tratada
 ├── candidaturas_limpas.csv       # candidaturas tratadas
 ├── Dashboard_Mercado_Vagas_alinhado.pbix  # dashboard Power BI
-├── Apresentacao_Mercado_Vagas.pdf         # apresentação
 ├── tema_glass_vagas.json         # tema do Power BI
 ├── fundo_glass.png               # fundo do dashboard
 └── dashboard.png                 # imagem do dashboard
