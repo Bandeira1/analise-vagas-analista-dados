@@ -1,0 +1,37 @@
+{
+  "name": "Glass Vagas",
+  "dataColors": ["#2DD4BF", "#FBBF24", "#CBD5E1", "#FB923C", "#38BDF8", "#34D399"],
+  "background": "#071417",
+  "foreground": "#F2F5FF",
+  "tableAccent": "#2DD4BF",
+  "good": "#2DD4BF",
+  "neutral": "#FBBF24",
+  "bad": "#FB923C",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#F2F5FF" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#F2F5FF" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#C9D1EA" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 32, "color": "#F2F5FF" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 92 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "radius": 16 }],
+        "visualHeader": [{ "show": false }],
+        "dropShadow": [{ "show": true, "preset": "BottomRight", "color": { "solid": { "color": "#000000" } }, "transparency": 70 }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#F2F5FF" } }, "fontSize": 13 }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#C9D1EA" } }, "gridlineShow": false }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#C9D1EA" } }, "gridlineShow": false }],
+        "labels": [{ "color": { "solid": { "color": "#F2F5FF" } } }],
+        "legend": [{ "labelColor": { "solid": { "color": "#C9D1EA" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#071417" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#071417" } } }]
+      }
+    }
+  }
+}
